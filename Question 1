@@ -106,12 +106,7 @@ void create(){
     cout<<"Array created with "<<n<<" elements and defaukt initial elements as  0."<<endl;
 }
 
-void shift(int x){
-    for(int i=x;i<n-2;i++){
-        arr[i+1]=arr[i];
-    }
-    
-}
+
 
 void delete1(int x){
     if (x < 0 || x >= n) {
