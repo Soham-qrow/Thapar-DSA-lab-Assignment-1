@@ -8,7 +8,7 @@ int arr[100];
  void delete1(int x);
  void insert(int x);
  void  ls();
- 
+ int aa=0;
 
 int main() {
     
@@ -127,6 +127,18 @@ void display(){
     }
 }
 
+void shift(int x){
+    
+    aa++;
+    if(aa>n){
+    n++;}
+    for(int i=n-1;i>x;i--){
+        arr[i]=arr[i-1];
+    }
+    
+    
+    
+}
 void insert(int x){
     
     int a;
