@@ -48,10 +48,11 @@ int main() {
         
         else{
             cout<<"At which index do you want to insert:- "<<endl;
-        }
-        int d;
+         int d;
         cin>>d;
         insert(d);
+        }
+       
         break;
         
         
