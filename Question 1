@@ -101,7 +101,7 @@ void create(){
     
     cout<<"Enter the number of elements you want in the array: "<<endl;
     cin>>n;
-    int arr[n];
+    
     
     cout<<"Array created with "<<n<<" elements and defaukt initial elements as  0."<<endl;
 }
